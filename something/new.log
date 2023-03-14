@@ -1,0 +1,10 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/citcho/go_test/something
+BenchmarkMakeSomething-8   	 1111568	      1062 ns/op	   16384 B/op	       1 allocs/op
+BenchmarkMakeSomething-8   	 1000000	      1052 ns/op	   16384 B/op	       1 allocs/op
+BenchmarkMakeSomething-8   	 1000000	      1065 ns/op	   16384 B/op	       1 allocs/op
+BenchmarkMakeSomething-8   	 1000000	      1052 ns/op	   16384 B/op	       1 allocs/op
+BenchmarkMakeSomething-8   	 1000000	      1077 ns/op	   16384 B/op	       1 allocs/op
+PASS
+ok  	github.com/citcho/go_test/something	6.415s
