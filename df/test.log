@@ -1,0 +1,8 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/citcho/go_test/df
+BenchmarkQFrame-8        	   21698	     51990 ns/op	   57448 B/op	     425 allocs/op
+BenchmarkGota-8          	    8077	    140366 ns/op	  149152 B/op	    2411 allocs/op
+BenchmarkDataframeGo-8   	    8422	    127636 ns/op	  129871 B/op	    4565 allocs/op
+PASS
+ok  	github.com/citcho/go_test/df	4.247s
